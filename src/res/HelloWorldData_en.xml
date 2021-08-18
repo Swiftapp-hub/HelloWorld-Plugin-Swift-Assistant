@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <Item id="demmande_user_name" needId="merci">
+    <Keywords maxWord="4" minWord="3">
+      <Words>
+        <word>what</word>
+      </Words>
+      <Words>
+        <word>my</word>
+      </Words>
+      <Words>
+        <word>name</word>
+      </Words>
+    </Keywords>
+    <Reply>
+      <rep>Your name is ?name</rep>
+      <rep>Your name is ?name, and I find it very pretty! :)</rep>
+      <rep>From what I know your name is ?name</rep>
+    </Reply>
+    <Prop>
+      <prop>Thank you</prop>
+      <prop>Okay</prop>
+      <prop>How nice</prop>
+    </Prop>
+    <Item id="merci" needId="null">
+      <Keywords maxWord="2" minWord="1">
+        <Words>
+          <word>thank you</word>
+          <prop>okay</prop>
+          <word>nice</word>
+        </Words>
+      </Keywords>
+      <Reply>
+        <rep>You're welcome :)</rep>
+        <rep>I am happy to help you!</rep>
+      </Reply>
+    </Item>
+  </Item>
+  <Item id="assistant_name" needId="merci">
+    <Keywords maxWord="4" minWord="3">
+      <Words>
+        <word>what's</word>
+        <word>what</word>
+      </Words>
+      <Words>
+        <word>your</word>
+      </Words>
+      <Words>
+        <word>name</word>
+      </Words>
+    </Keywords>
+    <Reply>
+      <rep>My name is Swift Assistant</rep>
+      <rep>I'm Swift Assistant</rep>
+    </Reply>
+    <Prop>
+      <prop>Thank you</prop>
+      <prop>Okay</prop>
+      <prop>It's pretty !</prop>
+      <prop>Cool</prop>
+    </Prop>
+    <Item id="merci" needId="null">
+      <Keywords maxWord="2" minWord="1">
+        <Words>
+          <word>thank you</word>
+          <word>okay</word>
+        </Words>
+      </Keywords>
+      <Reply>
+        <rep>You're welcome :)</rep>
+        <rep>Always at your service !</rep>
+        <rep>:)</rep>
+        <rep>No problem :)</rep>
+      </Reply>
+    </Item>
+    <Item id="merci" needId="null">
+      <Keywords maxWord="2" minWord="1">
+        <Words>
+          <word>pretty</word>
+          <word>like</word>
+          <word>cool</word>
+        </Words>
+      </Keywords>
+      <Reply>
+        <rep>Thanks ?name :)</rep>
+        <rep>How nice :)</rep>
+        <rep>It is a pleasure !</rep>
+      </Reply>
+    </Item>
+  </Item>
+  <Item id="ton_nom" needId="merci">
+    <Keywords maxWord="5" minWord="3">
+      <Words>
+        <word>name</word>
+      </Words>
+      <Words>
+        <word>your</word>
+      </Words>
+    </Keywords>
+    <Var max="2">
+      <word>is</word>
+    </Var>
+    <Reply>
+      <condition if="?1!swift assistant">
+        <rep>No, my name is Swift Assistant</rep>
+        <rep>I prefer my name, Swift Assistant!</rep>
+      </condition>
+      <else>
+        <rep>Yes that's right!</rep>
+        <rep>Absolutely!</rep>
+      </else>
+    </Reply>
+    <Prop>
+      <prop>Thank you</prop>
+      <prop>Okay</prop>
+    </Prop>
+    <Item id="merci" needId="null">
+      <Keywords maxWord="2" minWord="1">
+        <Words>
+          <word>thank</word>
+          <word>okay</word>
+        </Words>
+      </Keywords>
+      <Reply>
+        <rep>No problem :)</rep>
+        <rep>:)</rep>
+        <rep>You're welcome, ?name :)</rep>
+      </Reply>
+    </Item>
+  </Item>
+  <Item>
+    <Keywords maxWord="1" minWord="1">
+      <Words>
+        <word>hello</word>
+        <word>hi</word>
+      </Words>
+    </Keywords>
+    <Reply>
+      <rep>Welcome!</rep>
+      <rep>Hello</rep>
+      <rep>Hi</rep>
+    </Reply>
+  </Item>
+  <Item id="comment_ca_va" needId="je_vais">
+    <Keywords maxWord="4" minWord="3">
+      <Words>
+        <word>how's</word>
+        <word>how</word>
+      </Words>
+      <Words>
+        <word>are</word>
+        <word>it</word>
+      </Words>
+      <Words>
+        <word>you</word>
+        <word>going</word>
+      </Words>
+    </Keywords>
+    <Reply>
+      <rep>Very well thank you :)</rep>
+      <rep>I'm fine, thank you, can't wait to help you!</rep>
+    </Reply>
+    <Reply>
+      <rep>And you ?</rep>
+      <rep>And you how are you ?</rep>
+    </Reply>
+    <Prop>
+      <prop>Good thanks</prop>
+      <prop>I'm ok thanks</prop>
+      <prop>I'm not fine !</prop>
+      <prop>I'm not doing well!</prop>
+    </Prop>
+    <Item id="je_vais" needId="merci">
+      <Keywords maxWord="4" minWord="1">
+        <Words>
+          <word>good</word>
+          <word>ok</word>
+          <word>fine</word>
+        </Words>
+        <NoWords>
+          <word>not</word>
+        </NoWords>
+      </Keywords>
+      <Reply>
+        <rep>Great, I'm happy for you !!!</rep>
+        <rep>Awesome! :)</rep>
+        <rep>Cool!</rep>
+        <rep>:)</rep>
+      </Reply>
+    </Item>
+    <Item id="merci" needId="null">
+      <Keywords maxWord="2" minWord="1">
+        <Words>
+          <word>thank</word>
+        </Words>
+      </Keywords>
+      <Reply>
+        <rep>No problem :)</rep>
+        <rep>You're welcome, ?name :)</rep>
+      </Reply>
+    </Item>
+    <Item id="je_vais" needId="null">
+      <Keywords maxWord="4" minWord="3">
+        <Words>
+          <word>not</word>
+          <word>i'm</word>
+          <word>i</word>
+        </Words>
+        <Words>
+          <word>fine</word>
+          <word>well</word>
+        </Words>
+      </Keywords>
+      <Reply>
+        <rep>I'm sorry ?name :(</rep>
+        <rep>Ah damn !</rep>
+      </Reply>
+      <Reply>
+        <rep>Hope I can help you!</rep>
+        <rep>Hope I can be of use to you!</rep>
+      </Reply>
+    </Item>
+  </Item>
+  <Item>
+    <Keywords maxWord="4" minWord="3">
+      <Words>
+        <word>i</word>
+        <word>i'm</word>
+      </Words>
+      <Words>
+        <word>am</word>
+        <word>doing</word>
+      </Words>
+      <Words>
+        <word>fine</word>
+        <word>well</word>
+        <word>happy</word>
+      </Words>
+    </Keywords>
+    <Reply>
+      <rep>Great, I'm happy for you !!!</rep>
+      <rep>Awesome! :)</rep>
+      <rep>Cool!</rep>
+      <rep>:)</rep>
+    </Reply>
+  </Item>
+  <Item>
+    <Keywords maxWord="4" minWord="2">
+      <Words>
+        <word>i</word>
+        <word>i'm</word>
+      </Words>
+      <Words>
+        <word>sad</word>
+        <word>not</word>
+        <word>well</word>
+        <word>heureux</word>
+      </Words>
+    </Keywords>
+    <Reply>
+      <rep>I'm sorry ?name :(</rep>
+      <rep>Ah, damn !</rep>
+    </Reply>
+    <Reply>
+      <rep>Hope I can help you!</rep>
+      <rep>Hope I can be of use to you!</rep>
+      <rep>I hope it's not me who put you in this state!</rep>
+    </Reply>
+  </Item>
+  <Item id="dis_moi_une_blague" needId="encore_une">
+    <Keywords maxWord="5" minWord="2">
+      <Words>
+        <word>joke</word>
+        <word>riddle</word>
+      </Words>
+      <Words>
+        <word>tell</word>
+        <word>know</word>
+        <word>a</word>
+      </Words>
+    </Keywords>
+    <Reply>
+      <rep>The beach says to the ocean: to say that everyone loves water is quite vague</rep>
+      <rep>If a clock strikes 13 times, what time is it? It's time to buy a new clock!</rep>
+      <rep>Why would a computer want to scratch itself? Because he has fleas!</rep>
+      <rep>What can you find in the sea and in the sky? A star</rep>
+      <rep>What kind of music do balloons hate to listen to? The pop!</rep>
+      <rep>What makes a fall without ever touching the ground? Temperature</rep>
+      <rep>A volcano settles next to a hill: Do you mind if I smoke?</rep>
+      <rep>What does a pill say in a pill jar? - I feel compressed</rep>
+      <rep>What is yellow and running fast? A squeezed lemon</rep>
+      <rep>How many times can you subtract 10 from 100? Once. Next time you would subtract 10 from 90</rep>
+      <rep>A man said to his doctor, “Doctor, help me. I'm addicted to Twitter! ” The doctor replies: "Sorry, I am not following you ..."</rep>
+      <rep>What do you call a magic dog? A labracadabrador</rep>
+      <rep>What breed of dog can jump higher than buildings? Any dog, because buildings can't jump</rep>
+      <rep>Why did the math textbook visit the guidance counselor? He needed help to solve his problems</rep>
+      <rep>What do you call a guy who puts his instruments in your mouth? A dentist</rep>
+    </Reply>
+    <Prop>
+      <prop>Another joke</prop>
+      <prop>Yet another joke</prop>
+      <prop>Thank you</prop>
+      <prop>Bad !</prop>
+      <prop>I do not like</prop>
+      <prop>Yes</prop>
+      <prop>No</prop>
+    </Prop>
+    <Item id="encore_une">
+      <Keywords maxWord="3" minWord="2">
+        <Words>
+          <word>another</word>
+        </Words>
+      </Keywords>
+      <Reply>
+        <rep>Okay</rep>
+        <rep>No problem !</rep>
+      </Reply>
+      <Reply>
+        <rep>The beach says to the ocean: to say that everyone loves water is quite vague</rep>
+        <rep>If a clock strikes 13 times, what time is it? It's time to buy a new clock!</rep>
+        <rep>Why would a computer want to scratch itself? Because he has fleas!</rep>
+        <rep>What can you find in the sea and in the sky? A star</rep>
+        <rep>What kind of music do balloons hate to listen to? The pop!</rep>
+        <rep>What makes a fall without ever touching the ground? Temperature</rep>
+        <rep>A volcano settles next to a hill: Do you mind if I smoke?</rep>
+        <rep>What does a pill say in a pill jar? - I feel compressed</rep>
+        <rep>What is yellow and running fast? A squeezed lemon</rep>
+        <rep>How many times can you subtract 10 from 100? Once. Next time you would subtract 10 from 90</rep>
+        <rep>A man said to his doctor, “Doctor, help me. I'm addicted to Twitter! ” The doctor replies: "Sorry, I am not following you ..."</rep>
+        <rep>What do you call a magic dog? A labracadabrador</rep>
+        <rep>What breed of dog can jump higher than buildings? Any dog, because buildings can't jump</rep>
+        <rep>Why did the math textbook visit the guidance counselor? He needed help to solve his problems</rep>
+        <rep>What do you call a guy who puts his instruments in your mouth? A dentist</rep>
+      </Reply>
+    </Item>
+    <Item id="encore_une" needId="null">
+      <Keywords maxWord="2" minWord="1">
+        <Words>
+          <word>thank</word>
+          <word>good</word>
+          <word>cool</word>
+        </Words>
+      </Keywords>
+      <Reply>
+        <rep>No problem :)</rep>
+        <rep>I'm glad you like it</rep>
+      </Reply>
+    </Item>
+    <Item id="encore_une" needId="une_autre_yes_no">
+      <Keywords maxWord="2" minWord="1">
+        <Words>
+          <word>bad</word>
+          <word>not</word>
+        </Words>
+      </Keywords>
+      <Reply>
+        <rep>Oops, sorry you don't like it!</rep>
+        <rep>Sorry :(</rep>
+      </Reply>
+      <Reply>
+        <rep>Do you want me to tell you another one?</rep>
+        <rep>Want another joke?</rep>
+      </Reply>
+    </Item>
+    <Item id="une_autre_yes_no" needId="encore_une">
+      <Keywords maxWord="1" minWord="1">
+        <Words>
+          <word>yes</word>
+        </Words>
+      </Keywords>
+      <Reply>
+        <rep>Okay</rep>
+        <rep>No problem !</rep>
+      </Reply>
+      <Reply>
+        <rep>The beach says to the ocean: to say that everyone loves water is quite vague</rep>
+        <rep>If a clock strikes 13 times, what time is it? It's time to buy a new clock!</rep>
+        <rep>Why would a computer want to scratch itself? Because he has fleas!</rep>
+        <rep>What can you find in the sea and in the sky? A star</rep>
+        <rep>What kind of music do balloons hate to listen to? The pop!</rep>
+        <rep>What makes a fall without ever touching the ground? Temperature</rep>
+        <rep>A volcano settles next to a hill: Do you mind if I smoke?</rep>
+        <rep>What does a pill say in a pill jar? - I feel compressed</rep>
+        <rep>What is yellow and running fast? A squeezed lemon</rep>
+        <rep>How many times can you subtract 10 from 100? Once. Next time you would subtract 10 from 90</rep>
+        <rep>A man said to his doctor, “Doctor, help me. I'm addicted to Twitter! ” The doctor replies: "Sorry, I am not following you ..."</rep>
+        <rep>What do you call a magic dog? A labracadabrador</rep>
+        <rep>What breed of dog can jump higher than buildings? Any dog, because buildings can't jump</rep>
+        <rep>Why did the math textbook visit the guidance counselor? He needed help to solve his problems</rep>
+        <rep>What do you call a guy who puts his instruments in your mouth? A dentist</rep>
+      </Reply>
+    </Item>
+    <Item id="une_autre_yes_no" needId="null">
+      <Keywords maxWord="1" minWord="1">
+        <Words>
+          <word>no</word>
+        </Words>
+      </Keywords>
+      <Reply>
+        <rep>Okay</rep>
+        <rep>Alright, no problem !</rep>
+        <rep>D'accord</rep>
+      </Reply>
+    </Item>
+  </Item>
+</data>

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/XML">
+        <file>HelloWorldData_en.xml</file>
+        <file>HelloWorldData_fr.xml</file>
+    </qresource>
+</RCC>
