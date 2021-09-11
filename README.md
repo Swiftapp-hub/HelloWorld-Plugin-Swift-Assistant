@@ -1,15 +1,15 @@
 # HelloWorld
-[![License](https://img.shields.io/badge/license-GPLv3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html) [![GitHub issues](https://img.shields.io/github/issues/Swiftapp-hub/HelloWorld-Plugin-Swift-Assistant.svg)](https://github.com/Swiftapp-hub/HelloWorld-Plugin-Swift-Assistant/issues) [![Maintained](https://img.shields.io/maintenance/yes/2021.svg)](https://github.com/Swiftapp-hub/HelloWorld-Plugin-Swift-Assistant/commits/develop)
+[![License](https://img.shields.io/badge/license-GPLv3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html) [![GitHub issues](https://img.shields.io/github/issues/Swiftapp-hub/HelloWorld-Plugin-Swifty-Assistant.svg)](https://github.com/Swiftapp-hub/HelloWorld-Pluginy-Swift-Assistant/issues) [![Maintained](https://img.shields.io/maintenance/yes/2021.svg)](https://github.com/Swiftapp-hub/HelloWorld-Plugin-Swifty-Assistant/commits/develop)
 
-HelloWorld is a plugin for [Swift Assistant](https://github.com/Swiftapp-hub/Swift-Assistant) that lets it know how to respond to basic things like: "How are you" or "Tell me a joke"
+HelloWorld is a plugin for [Swifty Assistant](https://github.com/Swiftapp-hub/Swifty-Assistant) that lets it know how to respond to basic things like: "How are you" or "Tell me a joke"
 
-Compatible with Swift Assistant version 1.0.1 or higher.
+Compatible with Swifty Assistant version 1.0.1 or higher.
 
 ## Installation
 
 1. [Download](https://github.com/Swiftapp-hub/HelloWorld-Plugin-Swift-Assistant/releases/) the plugin
-2. Then move it to the ~/SwiftPlugins folder
-3. If SwiftAssistant is already open, go to settings and click Refresh
+2. Then move it to the ~/SwiftyPlugins folder
+3. If Swifty Assistant is already open, go to settings and click Refresh
 
 ## Manual build
 
