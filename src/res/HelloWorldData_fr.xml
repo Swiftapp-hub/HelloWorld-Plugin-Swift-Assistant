@@ -65,9 +65,9 @@
 			</Words>
 		</Keywords>
 		<Reply>
-			<rep>Je m'appelle Swift Assistant</rep>
-			<rep>Mon nom est Swift Assistant</rep>
-			<rep>Je suis Swift Assistant</rep>
+			<rep>Je m'appelle Swifty Assistant</rep>
+			<rep>Mon nom est Swifty Assistant</rep>
+			<rep>Je suis Swifty Assistant</rep>
 		</Reply>
 		<Prop>
 			<prop>Merci</prop>
@@ -126,9 +126,9 @@
 			<word>nomme</word>
 		</Var>
 		<Reply>
-			<condition if="?1!swift assistant">
-				<rep>Non, je m'appelle Swift Assistant</rep>
-				<rep>Je préfère mon nom, Swift Assistant!</rep>
+			<condition if="?1!swifty assistant">
+				<rep>Non, je m'appelle Swifty Assistant</rep>
+				<rep>Je préfère mon nom, Swifty Assistant!</rep>
 			</condition>
 			<else>
 				<rep>Oui, c'est bien ça!</rep>

@@ -1,6 +1,6 @@
-/* Swift Assistant is a simple, user-friendly assistant based on an extension system.
+/* Swifty Assistant is a simple, user-friendly assistant based on an extension system.
 
-   Copyright (C) <2021>  <SwiftApp>
+   Copyright (C) <2021>  <SwiftyApp>
 
    This program is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
@@ -34,7 +34,7 @@ QString HelloWorldPlugin::getDataXml()
 
 QString HelloWorldPlugin::pluginIid()
 {
-    return "fr.swift.helloworld";
+    return "fr.swifty.helloworld";
 }
 
 QList<QString> HelloWorldPlugin::getCommande()
@@ -49,7 +49,7 @@ QList<QString> HelloWorldPlugin::getCommande()
         list << "Comment tu t'appelles ?" << "Quel est ton nom ?";
         list << "Comment je m'appelle ?" << "Quel est mon nom ?";
         list << "Dis moi une blague" << "Connais tu une blague?";
-        list << "Ton nom est Swift Assistant" << "Peut on changer ton nom ?";
+        list << "Ton nom est Swifty Assistant" << "Peut on changer ton nom ?";
     }
     else {
         list << "How are you ?";
@@ -58,7 +58,7 @@ QList<QString> HelloWorldPlugin::getCommande()
         list << "What's your name?";
         list << "What is my name?";
         list << "Tell me a joke" << "Do you know a joke?";
-        list << "Your name is Swift Assistant" << "Can we change your name?";
+        list << "Your name is Swifty Assistant" << "Can we change your name?";
     }
 
     return list;
