@@ -3,7 +3,7 @@
 
 HelloWorld is a plugin for [Swifty Assistant](https://github.com/Swiftapp-hub/Swifty-Assistant) that lets it know how to respond to basic things like: "How are you" or "Tell me a joke"
 
-Compatible with Swifty Assistant version 1.0.1 or higher.
+Compatible with Swifty Assistant version 1.0.0-alpha1 or higher.
 
 ## Installation
 

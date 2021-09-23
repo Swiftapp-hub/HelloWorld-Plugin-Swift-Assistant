@@ -20,6 +20,11 @@
 #include <QFile>
 #include <QLocale>
 
+/**
+ * Return the keywords with the answers that match in xml format
+ *
+ * @return the keywords in xml format
+ */
 QString HelloWorldPlugin::getDataXml()
 {
     QString locale = QLocale::system().name().section('_', 0, 0);
@@ -32,11 +37,21 @@ QString HelloWorldPlugin::getDataXml()
     return file.readAll();
 }
 
-QString HelloWorldPlugin::pluginIid()
+/**
+ * Returns the unique identifier of the plugin
+ *
+ * @return the id
+ */
+QString HelloWorldPlugin::pluginId()
 {
     return "fr.swifty.helloworld";
 }
 
+/**
+ * Returns a list of proposals related to the plugin
+ *
+ * @return the list of proposals
+ */
 QList<QString> HelloWorldPlugin::getCommande()
 {
     QList<QString> list;
@@ -64,6 +79,12 @@ QList<QString> HelloWorldPlugin::getCommande()
     return list;
 }
 
+/**
+ * Called when a special action is defined in the xml
+ */
 void HelloWorldPlugin::execAction(QList<QString>) {}
 
+/**
+ * Called when a custom interface is displayed and sends a message
+ */
 void HelloWorldPlugin::messageReceived(QString, QString) {}
