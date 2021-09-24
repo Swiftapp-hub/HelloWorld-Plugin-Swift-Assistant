@@ -194,7 +194,7 @@
 			<prop>Ça va, merci</prop>
 			<prop>Ça va pas !</prop>
 			<prop>Je vais pas bien !</prop>
-                        <prop>Merci</prop>
+			<prop>Merci</prop>
 		</Prop>
 		<Item id="je_vais" needId="merci">
 			<Keywords maxWord="2" minWord="1">
@@ -202,9 +202,9 @@
 					<word>bien</word>
 					<word>va</word>
 				</Words>
-                                <NoWords>
-                                        <word>pas</word>
-                                </NoWords>
+				<NoWords>
+					<word>pas</word>
+				</NoWords>
 			</Keywords>
 			<Reply>
 				<rep>Super, je suis content pour vous!!!</rep>
@@ -233,6 +233,7 @@
 				</Words>
 				<Words>
 					<word>pas</word>
+					<word>mal</word>
 				</Words>
 			</Keywords>
 			<Reply>
@@ -282,6 +283,7 @@
 				<word>triste</word>
 				<word>pas</word>
 				<word>heureux</word>
+				<word>mal</word>
 			</Words>
 		</Keywords>
 		<Reply>

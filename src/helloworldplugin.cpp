@@ -61,6 +61,7 @@ QList<QString> HelloWorldPlugin::getCommande()
         list << "Comment ça va ?";
         list << "Salut" << "Bonjour" << "Coucou";
         list << "Je vais bien" << "Je me sens bien";
+        list << "Je me sens mal" << "Je vais pas bien";
         list << "Comment tu t'appelles ?" << "Quel est ton nom ?";
         list << "Comment je m'appelle ?" << "Quel est mon nom ?";
         list << "Dis moi une blague" << "Connais tu une blague?";
@@ -70,6 +71,7 @@ QList<QString> HelloWorldPlugin::getCommande()
         list << "How are you ?";
         list << "Hello" << "Hi";
         list << "I'm fine" << "I feel good";
+        list << "I feel bad" << "I am not well";
         list << "What's your name?";
         list << "What is my name?";
         list << "Tell me a joke" << "Do you know a joke?";
