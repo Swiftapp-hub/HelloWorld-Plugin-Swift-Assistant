@@ -244,7 +244,7 @@
       <rep>:)</rep>
     </Reply>
   </Item>
-  <Item>
+  <Item id="i_m_not_fine" needId="thank">
     <Keywords maxWord="4" minWord="2">
       <Words>
         <word>i</word>
@@ -266,6 +266,24 @@
       <rep>Hope I can be of use to you!</rep>
       <rep>I hope it's not me who put you in this state!</rep>
     </Reply>
+    <Prop>
+      <prop>Thanks</prop>
+      <prop>You're welcome</prop>
+      <prop>How nice</prop>
+    </Prop>
+    <Item id="thank" needId="null">
+      <Keywords maxWord="2" minWord="1">
+        <Words>
+          <word>thanks</word>
+          <word>nice</word>
+          <word>welcome</word>
+        </Words>
+      </Keywords>
+      <Reply>
+        <rep>demmande-pionnier :)</rep>
+        <rep>De rien, ?name :)</rep>
+      </Reply>
+    </Item>
   </Item>
   <Item id="dis_moi_une_blague" needId="encore_une">
     <Keywords maxWord="5" minWord="2">

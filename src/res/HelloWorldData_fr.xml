@@ -269,7 +269,7 @@
 			<rep>:)</rep>
 		</Reply>
 	</Item>
-	<Item>
+	<Item id="i_m_not_fine" needId="thank">
 		<Keywords maxWord="5" minWord="3">
 			<Words>
 				<word>je</word>
@@ -293,8 +293,25 @@
 		<Reply>
 			<rep>J'espère que je vais pouvoir vous aider !</rep>
 			<rep>J'espère que je vais pouvoir vous être utile !</rep>
-			<rep>J'espère c'est pas moi qui vous ai mis dans cet état !</rep>
+			<rep>J'espère que c'est pas moi qui vous ai mis dans cet état !</rep>
 		</Reply>
+		<Prop>
+			<prop>Merci</prop>
+			<prop>De rien</prop>
+			<prop>C'est gentil</prop>
+		</Prop>
+		<Item id="thank" needId="null">
+			<Keywords maxWord="2" minWord="1">
+				<Words>
+					<word>merci</word>
+					<word>gentil</word>
+				</Words>
+			</Keywords>
+			<Reply>
+				<rep>Y'a pas de quoi :)</rep>
+				<rep>De rien, ?name :)</rep>
+			</Reply>
+		</Item>
 	</Item>
 	<Item id="dis_moi_une_blague" needId="encore_une">
 		<Keywords maxWord="5" minWord="2">
