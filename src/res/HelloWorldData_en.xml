@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
+  <Item>
+    <Keywords maxWord="2" minWord="2">
+      <Words>
+        <word>thanks</word>
+      </Words>
+	  <Words>
+        <word>you</word>
+      </Words>
+    </Keywords>
+    <Reply>
+      <rep>No problem ! :)</rep>
+      <rep>Always at your service !</rep>
+      <rep>I hope I can still be of use to you</rep>
+      <rep>It's cool that I can be of use to you! :)</rep>
+    </Reply>
+  </Item>
   <Item id="demmande_user_name" needId="merci">
     <Keywords maxWord="4" minWord="3">
       <Words>
