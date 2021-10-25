@@ -59,7 +59,7 @@ QList<QString> HelloWorldPlugin::getCommande()
 
     if (locale == "fr") {
         list << "Comment ça va ?";
-        list << "Salut" << "Bonjour" << "Coucou";
+        list << "Salut" << "Bonjour" << "Coucou" << "👋";
         list << "Je vais bien" << "Je me sens bien";
         list << "Je me sens mal" << "Je vais pas bien";
         list << "Comment tu t'appelles ?" << "Quel est ton nom ?";

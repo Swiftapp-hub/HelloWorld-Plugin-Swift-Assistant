@@ -7,10 +7,10 @@
       </Words>
     </Keywords>
     <Reply>
-      <rep>Y'a pas de quoi ! :)</rep>
+      <rep>Y'a pas de quoi ! 😃</rep>
       <rep>Toujours a vôtre service !</rep>
       <rep>J'espère que je vais pouvoir vous être encore utile</rep>
-      <rep>C'est cool que je puisse vous être utile ! :)</rep>
+      <rep>C'est cool que je puisse vous être utile ! 😃</rep>
     </Reply>
   </Item>
   <Item id="demmande_user_name" needId="merci">
@@ -33,10 +33,11 @@
     </Keywords>
     <Reply>
       <rep>Vous vous appelez ?name</rep>
-      <rep>Votre nom est ?name, et je le trouve très joli! :)</rep>
+      <rep>Votre nom est ?name, et je le trouve très joli ! 😊</rep>
       <rep>D'après ce que je sais, vous vous appelez ?name</rep>
     </Reply>
     <Prop>
+      <prop>👌</prop>
       <prop>Merci</prop>
       <prop>Ok</prop>
       <prop>D'accord</prop>
@@ -50,12 +51,15 @@
           <prop>ok</prop>
           <word>d'accord</word>
           <word>gentil</word>
+          <word>👌</word>
+          <word>👍</word>
         </Words>
       </Keywords>
       <Reply>
-        <rep>Y'a pas de quoi :)</rep>
+        <rep>Y'a pas de quoi 😄</rep>
         <rep>Je suis content de vous aider !</rep>
-        <rep>De rien :)</rep>
+        <rep>De rien 🙂</rep>
+        <rep>😊</rep>
       </Reply>
     </Item>
   </Item>
@@ -83,6 +87,7 @@
       <rep>Je suis Swifty Assistant</rep>
     </Reply>
     <Prop>
+      <prop>👍</prop>
       <prop>Merci</prop>
       <prop>Ok</prop>
       <prop>D'accord</prop>
@@ -96,13 +101,15 @@
           <word>dac</word>
           <word>ok</word>
           <word>d'accord</word>
+          <word>👌</word>
+          <word>👍</word>
         </Words>
       </Keywords>
       <Reply>
-        <rep>Y'a pas de quoi :)</rep>
+        <rep>Y'a pas de quoi 😘</rep>
         <rep>Toujours à votre service !</rep>
-        <rep>:)</rep>
-        <rep>De rien :)</rep>
+        <rep>😄</rep>
+        <rep>De rien 😊</rep>
       </Reply>
     </Item>
     <Item id="merci" needId="null">
@@ -114,9 +121,9 @@
         </Words>
       </Keywords>
       <Reply>
-        <rep>Merci ?name :)</rep>
-        <rep>C'est gentil :)</rep>
-        <rep>Ça me fait plaisir !</rep>
+        <rep>Merci ?name </rep>
+        <rep>C'est gentil 😊</rep>
+        <rep>Merci, ça me fait plaisir ! 😏</rep>
       </Reply>
     </Item>
   </Item>
@@ -141,14 +148,15 @@
     <Reply>
       <condition if="?1!swifty assistant">
         <rep>Non, je m'appelle Swifty Assistant</rep>
-        <rep>Je préfère mon nom, Swifty Assistant!</rep>
+        <rep>Je préfère mon nom, Swifty Assistant ! 😋</rep>
       </condition>
       <else>
-        <rep>Oui, c'est bien ça!</rep>
-        <rep>Tout à fait!</rep>
+        <rep>Oui, c'est bien ça ! 🙂</rep>
+        <rep>Tout à fait !</rep>
       </else>
     </Reply>
     <Prop>
+      <prop>👌</prop>
       <prop>Merci</prop>
       <prop>Ok</prop>
       <prop>D'accord</prop>
@@ -160,6 +168,8 @@
           <word>dac</word>
           <word>ok</word>
           <word>d'accord</word>
+          <word>👌</word>
+          <word>👍</word>
         </Words>
       </Keywords>
       <Reply>
@@ -182,6 +192,7 @@
       <rep>Bonjour</rep>
       <rep>Salut</rep>
       <rep>Hello</rep>
+      <rep>👋</rep>
     </Reply>
   </Item>
   <Item id="comment_ca_va" needId="je_vais">
@@ -194,15 +205,17 @@
       </Words>
     </Keywords>
     <Reply>
-      <rep>Très bien, merci :)</rep>
-      <rep>Je vais bien, merci, j'ai hâte de vous aider!</rep>
-      <rep>Oui, ça boum!!!</rep>
+      <rep>Très bien, merci 😃</rep>
+      <rep>Je vais bien, merci, j'ai hâte de vous aider !</rep>
+      <rep>Oui, ça boum !!!</rep>
     </Reply>
     <Reply>
-      <rep>Et vous ?</rep>
+      <rep>Et vous ? 🤔</rep>
       <rep>Et vous comment ça va ?</rep>
     </Reply>
     <Prop>
+      <prop>👍</prop>
+      <prop>👎</prop>
       <prop>Bien, merci</prop>
       <prop>Ça va, merci</prop>
       <prop>Ça va pas !</prop>
@@ -214,16 +227,18 @@
         <Words>
           <word>bien</word>
           <word>va</word>
+          <word>👍</word>
+          <word>👌</word>
         </Words>
         <NoWords>
           <word>pas</word>
         </NoWords>
       </Keywords>
       <Reply>
-        <rep>Super, je suis content pour vous!!!</rep>
-        <rep>Génial! :)</rep>
-        <rep>Cool!</rep>
-        <rep>:)</rep>
+        <rep>Super, je suis content pour vous !!!</rep>
+        <rep>Génial ! 😃</rep>
+        <rep>Cool !</rep>
+        <rep>😊</rep>
       </Reply>
     </Item>
     <Item id="merci" needId="null">
@@ -231,11 +246,12 @@
         <Words>
           <word>merci</word>
           <word>gentil</word>
+          <word>😊</word>
         </Words>
       </Keywords>
       <Reply>
-        <rep>Y'a pas de quoi :)</rep>
-        <rep>De rien, ?name :)</rep>
+        <rep>Y'a pas de quoi 😊</rep>
+        <rep>De rien, ?name</rep>
       </Reply>
     </Item>
     <Item id="je_vais" needId="null">
@@ -251,11 +267,11 @@
         </Words>
       </Keywords>
       <Reply>
-        <rep>Je suis désolé ?name :(</rep>
+        <rep>Je suis désolé ?name 😒</rep>
         <rep>Ah, zut !</rep>
       </Reply>
       <Reply>
-        <rep>J'espère que je vais pouvoir vous aider !</rep>
+        <rep>J'espère que je vais pouvoir vous aider ! 😟</rep>
         <rep>J'espère que je vais pouvoir vous être utile !</rep>
       </Reply>
     </Item>
@@ -277,10 +293,10 @@
       </Words>
     </Keywords>
     <Reply>
-      <rep>Super, je suis content pour vous!!!</rep>
-      <rep>Génial! :)</rep>
-      <rep>Cool!</rep>
-      <rep>:)</rep>
+      <rep>Super, je suis content pour vous !!!</rep>
+      <rep>Génial ! 😄</rep>
+      <rep>Cool !</rep>
+      <rep>😁</rep>
     </Reply>
   </Item>
   <Item id="i_m_not_fine" needId="thank">
@@ -301,13 +317,13 @@
       </Words>
     </Keywords>
     <Reply>
-      <rep>Je suis désolé ?name :(</rep>
-      <rep>Ah, zut !</rep>
+      <rep>Je suis désolé ?name 😔</rep>
+      <rep>Oh, non !</rep>
     </Reply>
     <Reply>
       <rep>J'espère que je vais pouvoir vous aider !</rep>
       <rep>J'espère que je vais pouvoir vous être utile !</rep>
-      <rep>J'espère que c'est pas moi qui vous ai mis dans cet état !</rep>
+      <rep>J'espère que c'est pas moi qui vous ai mis dans cet état ! 😟</rep>
     </Reply>
     <Prop>
       <prop>Merci</prop>
@@ -326,6 +342,29 @@
         <rep>De rien, ?name :)</rep>
       </Reply>
     </Item>
+    <Item id="thank" needId="null">
+      <Keywords maxWord="4" minWord="1">
+        <Words>
+          <word>non</word>
+          <word>pas</word>
+        </Words>
+      </Keywords>
+      <Reply>
+        <rep>Ouf 💨, ça me rassure !</rep>
+        <rep>Ahhh, cool, t'en mieux 😄</rep>
+      </Reply>
+    </Item>
+    <Item id="thank" needId="null">
+      <Keywords maxWord="3" minWord="1">
+        <Words>
+          <word>si</word>
+        </Words>
+      </Keywords>
+      <Reply>
+        <rep>Ohhh non, je suis désoler !</rep>
+        <rep>Mince, j'espère que je vais pouvoir t'aider !</rep>
+      </Reply>
+    </Item>
   </Item>
   <Item id="dis_moi_une_blague" needId="encore_une">
     <Keywords maxWord="5" minWord="2">
@@ -341,35 +380,37 @@
     </Keywords>
     <Reply>
       <rep>La plage dit à l’océan: dire que tout le monde aime l’eau c’est assez vague</rep>
-      <rep>Comment appelle-t-on un alligator qui enquête? Un investi-gator</rep>
-      <rep>Si une horloge sonne 13 fois, quelle heure est-il? Il est l’heure d’acheter une nouvelle horloge!</rep>
-      <rep>Pourquoi un ordinateur voudrait-il se gratter? Parce qu’il a des puces!</rep>
-      <rep>Que peut-on trouver dans la mer et dans le ciel? Une étoile</rep>
-      <rep>Quel type de musique les ballons détestent-ils écouter? Le pop!</rep>
-      <rep>Qu’est-ce qui fait une chute, sans jamais toucher le sol? La température</rep>
-      <rep>Comment appelle-t-on une vache qui joue du saxophone? Une meu-sicienne</rep>
-      <rep>Un volcan s’installe à côté d’une colline: Ça te dérange si je fume?</rep>
-      <rep>Que dit une pilule dans un pot de pilules? – Je me sens comprimée</rep>
-      <rep>Comment appelle-t-on un hamster dans l’espace? Un hamsteroïde</rep>
+      <rep>Comment appelle-t-on un alligator qui enquête? Un investi-gator 🐊</rep>
+      <rep>Si une horloge sonne 13 fois, quelle heure est-il? Il est l’heure d’acheter une nouvelle horloge ! 🤣</rep>
+      <rep>Pourquoi un ordinateur voudrait-il se gratter? Parce qu’il a des puces ! </rep>
+      <rep>Que peut-on trouver dans la mer et dans le ciel? Une étoile ✨</rep>
+      <rep>Quel type de musique les ballons détestent-ils écouter? Le pop !</rep>
+      <rep>Qu’est-ce qui fait une chute, sans jamais toucher le sol? La température 🌡</rep>
+      <rep>Comment appelle-t-on une vache qui joue du saxophone? Une meu-sicienne 🐮🎶</rep>
+      <rep>Un volcan s’installe à côté d’une colline: Ça te dérange si je fume ? </rep>
+      <rep>Que dit une pilule dans un pot de pilules? Je me sens comprimée </rep>
+      <rep>Comment appelle-t-on un hamster dans l’espace? Un hamsteroïde 🌠</rep>
       <rep>Un astronaute qui commet un crime dans l’espace sera-t-il puni? Non car il s’agit d’un crime sans gravité</rep>
-      <rep>Comment se nomme l’oiseau qui se gratte d’un seul coté? Un oiseau mi-gratteur</rep>
+      <rep>Comment se nomme l’oiseau qui se gratte d’un seul coté? Un oiseau mi-gratteur 🐦</rep>
       <rep>Vous connaissez l’histoire du lit vertical? C’est une histoire à dormir debout</rep>
-      <rep>Qu’est-ce qui est jaune et qui court vite? Un citron pressé</rep>
-      <rep>Comment s’appelle la fée la plus paresseuse? La fée Néante</rep>
+      <rep>Qu’est-ce qui est jaune et qui court vite? Un citron pressé 🍋</rep>
+      <rep>Comment s’appelle la fée la plus paresseuse? La fée Néante 🧚</rep>
       <rep>Combien de fois pouvez-vous soustraire 10 de 100? Une fois. La prochaine fois, vous soustrayeriez 10 de 90</rep>
       <rep>Un homme dit à son médecin: «Docteur, aidez-moi. Je suis accro à Twitter!» Le médecin répond: «Désolé, je ne vous suis pas…»</rep>
-      <rep>Pourquoi les pêcheurs ne sont pas gros? Parce qu’ils surveillent leur ligne</rep>
-      <rep>C’est l’histoire de 2 patates qui traversent la route L’une d’elle se fait écraser. L’autre dit: «Oh purée!»</rep>
-      <rep>Vous connaissez l’histoire de l’armoire? Elle n’est pas commode…</rep>
-      <rep>Comment appelle-t-on un chien magique? Un labracadabrador</rep>
-      <rep>Quelle race de chien peut sauter plus haut que les bâtiments? N’importe quel chien, car les bâtiments ne peuvent pas sauter</rep>
+      <rep>Pourquoi les pêcheurs ne sont pas gros? Parce qu’ils surveillent leur ligne 🎣</rep>
+      <rep>C’est l’histoire de 2 patates qui traversent la route L’une d’elle se fait écraser. L’autre dit: «Oh purée!» </rep>
+      <rep>Vous connaissez l’histoire de l’armoire? Elle n’est pas commode... 🗄</rep>
+      <rep>Comment appelle-t-on un chien magique? Un labracadabrador 🐶</rep>
+      <rep>Quelle race de chien peut sauter plus haut que les bâtiments? N’importe quel chien, car les bâtiments ne peuvent pas sauter 😂</rep>
       <rep>Pourquoi le manuel de mathématiques a-t-il rendu visite au conseiller d’orientation? Il avait besoin d’aide pour résoudre ses problèmes</rep>
-      <rep>Quel est le bar préféré des Espagnols? Le Bar-celone</rep>
-      <rep>Quel est le crustacé le plus léger de la mer? La palourde (pas lourde)…</rep>
+      <rep>Quel est le bar préféré des Espagnols? Le Bar-celone 🇪🇸</rep>
+      <rep>Quel est le crustacé le plus léger de la mer? La palourde (pas lourde) 🐚</rep>
       <rep>Comment appelez-vous un gars qui met ses instruments dans votre bouche? Un dentiste</rep>
-      <rep>Quelle mamie fait peur aux voleurs? La Mamie Traillette!</rep>
+      <rep>Quelle mamie fait peur aux voleurs? La Mamie Traillette !</rep>
     </Reply>
     <Prop>
+      <prop>👎</prop>
+      <prop>👍</prop>
       <prop>Une autre blague</prop>
       <prop>Encore une autre blague</prop>
       <prop>Merci</prop>
@@ -394,33 +435,33 @@
       </Reply>
       <Reply>
         <rep>La plage dit à l’océan: dire que tout le monde aime l’eau c’est assez vague</rep>
-        <rep>Comment appelle-t-on un alligator qui enquête? Un investi-gator</rep>
-        <rep>Si une horloge sonne 13 fois, quelle heure est-il? Il est l’heure d’acheter une nouvelle horloge!</rep>
-        <rep>Pourquoi un ordinateur voudrait-il se gratter? Parce qu’il a des puces!</rep>
-        <rep>Que peut-on trouver dans la mer et dans le ciel? Une étoile</rep>
-        <rep>Quel type de musique les ballons détestent-ils écouter? Le pop!</rep>
-        <rep>Qu’est-ce qui fait une chute, sans jamais toucher le sol? La température</rep>
-        <rep>Comment appelle-t-on une vache qui joue du saxophone? Une meu-sicienne</rep>
-        <rep>Un volcan s’installe à côté d’une colline: Ça te dérange si je fume?</rep>
-        <rep>Que dit une pilule dans un pot de pilules? – Je me sens comprimée</rep>
-        <rep>Comment appelle-t-on un hamster dans l’espace? Un hamsteroïde</rep>
+        <rep>Comment appelle-t-on un alligator qui enquête? Un investi-gator 🐊</rep>
+        <rep>Si une horloge sonne 13 fois, quelle heure est-il? Il est l’heure d’acheter une nouvelle horloge ! 🤣</rep>
+        <rep>Pourquoi un ordinateur voudrait-il se gratter? Parce qu’il a des puces ! </rep>
+        <rep>Que peut-on trouver dans la mer et dans le ciel? Une étoile ✨</rep>
+        <rep>Quel type de musique les ballons détestent-ils écouter? Le pop !</rep>
+        <rep>Qu’est-ce qui fait une chute, sans jamais toucher le sol? La température 🌡</rep>
+        <rep>Comment appelle-t-on une vache qui joue du saxophone? Une meu-sicienne 🐮🎶</rep>
+        <rep>Un volcan s’installe à côté d’une colline: Ça te dérange si je fume ? </rep>
+        <rep>Que dit une pilule dans un pot de pilules? Je me sens comprimée </rep>
+        <rep>Comment appelle-t-on un hamster dans l’espace? Un hamsteroïde 🌠</rep>
         <rep>Un astronaute qui commet un crime dans l’espace sera-t-il puni? Non car il s’agit d’un crime sans gravité</rep>
-        <rep>Comment se nomme l’oiseau qui se gratte d’un seul coté? Un oiseau mi-gratteur</rep>
+        <rep>Comment se nomme l’oiseau qui se gratte d’un seul coté? Un oiseau mi-gratteur 🐦</rep>
         <rep>Vous connaissez l’histoire du lit vertical? C’est une histoire à dormir debout</rep>
-        <rep>Qu’est-ce qui est jaune et qui court vite? Un citron pressé</rep>
-        <rep>Comment s’appelle la fée la plus paresseuse? La fée Néante</rep>
+        <rep>Qu’est-ce qui est jaune et qui court vite? Un citron pressé 🍋</rep>
+        <rep>Comment s’appelle la fée la plus paresseuse? La fée Néante 🧚</rep>
         <rep>Combien de fois pouvez-vous soustraire 10 de 100? Une fois. La prochaine fois, vous soustrayeriez 10 de 90</rep>
         <rep>Un homme dit à son médecin: «Docteur, aidez-moi. Je suis accro à Twitter!» Le médecin répond: «Désolé, je ne vous suis pas…»</rep>
-        <rep>Pourquoi les pêcheurs ne sont pas gros? Parce qu’ils surveillent leur ligne</rep>
-        <rep>C’est l’histoire de 2 patates qui traversent la route L’une d’elle se fait écraser. L’autre dit: «Oh purée!»</rep>
-        <rep>Vous connaissez l’histoire de l’armoire? Elle n’est pas commode…</rep>
-        <rep>Comment appelle-t-on un chien magique? Un labracadabrador</rep>
-        <rep>Quelle race de chien peut sauter plus haut que les bâtiments? N’importe quel chien, car les bâtiments ne peuvent pas sauter</rep>
+        <rep>Pourquoi les pêcheurs ne sont pas gros? Parce qu’ils surveillent leur ligne 🎣</rep>
+        <rep>C’est l’histoire de 2 patates qui traversent la route L’une d’elle se fait écraser. L’autre dit: «Oh purée!» </rep>
+        <rep>Vous connaissez l’histoire de l’armoire? Elle n’est pas commode... 🗄</rep>
+        <rep>Comment appelle-t-on un chien magique? Un labracadabrador 🐶</rep>
+        <rep>Quelle race de chien peut sauter plus haut que les bâtiments? N’importe quel chien, car les bâtiments ne peuvent pas sauter 😂</rep>
         <rep>Pourquoi le manuel de mathématiques a-t-il rendu visite au conseiller d’orientation? Il avait besoin d’aide pour résoudre ses problèmes</rep>
-        <rep>Quel est le bar préféré des Espagnols? Le Bar-celone</rep>
-        <rep>Quel est le crustacé le plus léger de la mer? La palourde (pas lourde)…</rep>
+        <rep>Quel est le bar préféré des Espagnols? Le Bar-celone 🇪🇸</rep>
+        <rep>Quel est le crustacé le plus léger de la mer? La palourde (pas lourde) 🐚</rep>
         <rep>Comment appelez-vous un gars qui met ses instruments dans votre bouche? Un dentiste</rep>
-        <rep>Quelle mamie fait peur aux voleurs? La Mamie Traillette!</rep>
+        <rep>Quelle mamie fait peur aux voleurs? La Mamie Traillette !</rep>
       </Reply>
     </Item>
     <Item id="encore_une" needId="null">
@@ -429,11 +470,12 @@
           <word>merci</word>
           <word>super</word>
           <word>cool</word>
+          <word>👍</word>
         </Words>
       </Keywords>
       <Reply>
-        <rep>Y'a pas de quoi :)</rep>
-        <rep>Je suis content que ça vous plaise</rep>
+        <rep>Y'a pas de quoi 😃</rep>
+        <rep>Je suis content que ça vous plaise !</rep>
       </Reply>
     </Item>
     <Item id="encore_une" needId="une_autre_yes_no">
@@ -442,11 +484,12 @@
           <word>nul</word>
           <word>pourrit</word>
           <word>pas</word>
+          <word>👎</word>
         </Words>
       </Keywords>
       <Reply>
         <rep>Oups, désolé que ça vous plaise pas !</rep>
-        <rep>Désolé :(</rep>
+        <rep>Désolé 😞</rep>
       </Reply>
       <Reply>
         <rep>Vous voulez que je vous en dise une autre ?</rep>
@@ -457,6 +500,8 @@
       <Keywords maxWord="1" minWord="1">
         <Words>
           <word>oui</word>
+          <word>👍</word>
+          <word>👌</word>
         </Words>
       </Keywords>
       <Reply>
@@ -466,39 +511,40 @@
       </Reply>
       <Reply>
         <rep>La plage dit à l’océan: dire que tout le monde aime l’eau c’est assez vague</rep>
-        <rep>Comment appelle-t-on un alligator qui enquête? Un investi-gator</rep>
-        <rep>Si une horloge sonne 13 fois, quelle heure est-il? Il est l’heure d’acheter une nouvelle horloge!</rep>
-        <rep>Pourquoi un ordinateur voudrait-il se gratter? Parce qu’il a des puces!</rep>
-        <rep>Que peut-on trouver dans la mer et dans le ciel? Une étoile</rep>
-        <rep>Quel type de musique les ballons détestent-ils écouter? Le pop!</rep>
-        <rep>Qu’est-ce qui fait une chute, sans jamais toucher le sol? La température</rep>
-        <rep>Comment appelle-t-on une vache qui joue du saxophone? Une meu-sicienne</rep>
-        <rep>Un volcan s’installe à côté d’une colline: Ça te dérange si je fume?</rep>
-        <rep>Que dit une pilule dans un pot de pilules? – Je me sens comprimée</rep>
-        <rep>Comment appelle-t-on un hamster dans l’espace? Un hamsteroïde</rep>
+        <rep>Comment appelle-t-on un alligator qui enquête? Un investi-gator 🐊</rep>
+        <rep>Si une horloge sonne 13 fois, quelle heure est-il? Il est l’heure d’acheter une nouvelle horloge ! 🤣</rep>
+        <rep>Pourquoi un ordinateur voudrait-il se gratter? Parce qu’il a des puces ! </rep>
+        <rep>Que peut-on trouver dans la mer et dans le ciel? Une étoile ✨</rep>
+        <rep>Quel type de musique les ballons détestent-ils écouter? Le pop !</rep>
+        <rep>Qu’est-ce qui fait une chute, sans jamais toucher le sol? La température 🌡</rep>
+        <rep>Comment appelle-t-on une vache qui joue du saxophone? Une meu-sicienne 🐮🎶</rep>
+        <rep>Un volcan s’installe à côté d’une colline: Ça te dérange si je fume ? </rep>
+        <rep>Que dit une pilule dans un pot de pilules? Je me sens comprimée </rep>
+        <rep>Comment appelle-t-on un hamster dans l’espace? Un hamsteroïde 🌠</rep>
         <rep>Un astronaute qui commet un crime dans l’espace sera-t-il puni? Non car il s’agit d’un crime sans gravité</rep>
-        <rep>Comment se nomme l’oiseau qui se gratte d’un seul coté? Un oiseau mi-gratteur</rep>
+        <rep>Comment se nomme l’oiseau qui se gratte d’un seul coté? Un oiseau mi-gratteur 🐦</rep>
         <rep>Vous connaissez l’histoire du lit vertical? C’est une histoire à dormir debout</rep>
-        <rep>Qu’est-ce qui est jaune et qui court vite? Un citron pressé</rep>
-        <rep>Comment s’appelle la fée la plus paresseuse? La fée Néante</rep>
+        <rep>Qu’est-ce qui est jaune et qui court vite? Un citron pressé 🍋</rep>
+        <rep>Comment s’appelle la fée la plus paresseuse? La fée Néante 🧚</rep>
         <rep>Combien de fois pouvez-vous soustraire 10 de 100? Une fois. La prochaine fois, vous soustrayeriez 10 de 90</rep>
         <rep>Un homme dit à son médecin: «Docteur, aidez-moi. Je suis accro à Twitter!» Le médecin répond: «Désolé, je ne vous suis pas…»</rep>
-        <rep>Pourquoi les pêcheurs ne sont pas gros? Parce qu’ils surveillent leur ligne</rep>
-        <rep>C’est l’histoire de 2 patates qui traversent la route L’une d’elle se fait écraser. L’autre dit: «Oh purée!»</rep>
-        <rep>Vous connaissez l’histoire de l’armoire? Elle n’est pas commode…</rep>
-        <rep>Comment appelle-t-on un chien magique? Un labracadabrador</rep>
-        <rep>Quelle race de chien peut sauter plus haut que les bâtiments? N’importe quel chien, car les bâtiments ne peuvent pas sauter</rep>
+        <rep>Pourquoi les pêcheurs ne sont pas gros? Parce qu’ils surveillent leur ligne 🎣</rep>
+        <rep>C’est l’histoire de 2 patates qui traversent la route L’une d’elle se fait écraser. L’autre dit: «Oh purée!» </rep>
+        <rep>Vous connaissez l’histoire de l’armoire? Elle n’est pas commode... 🗄</rep>
+        <rep>Comment appelle-t-on un chien magique? Un labracadabrador 🐶</rep>
+        <rep>Quelle race de chien peut sauter plus haut que les bâtiments? N’importe quel chien, car les bâtiments ne peuvent pas sauter 😂</rep>
         <rep>Pourquoi le manuel de mathématiques a-t-il rendu visite au conseiller d’orientation? Il avait besoin d’aide pour résoudre ses problèmes</rep>
-        <rep>Quel est le bar préféré des Espagnols? Le Bar-celone</rep>
-        <rep>Quel est le crustacé le plus léger de la mer? La palourde (pas lourde)…</rep>
+        <rep>Quel est le bar préféré des Espagnols? Le Bar-celone 🇪🇸</rep>
+        <rep>Quel est le crustacé le plus léger de la mer? La palourde (pas lourde) 🐚</rep>
         <rep>Comment appelez-vous un gars qui met ses instruments dans votre bouche? Un dentiste</rep>
-        <rep>Quelle mamie fait peur aux voleurs? La Mamie Traillette!</rep>
+        <rep>Quelle mamie fait peur aux voleurs? La Mamie Traillette !</rep>
       </Reply>
     </Item>
     <Item id="une_autre_yes_no" needId="null">
       <Keywords maxWord="1" minWord="1">
         <Words>
           <word>non</word>
+          <word>👎</word>
         </Words>
       </Keywords>
       <Reply>
