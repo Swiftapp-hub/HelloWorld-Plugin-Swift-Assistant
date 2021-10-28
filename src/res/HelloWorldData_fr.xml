@@ -173,9 +173,9 @@
         </Words>
       </Keywords>
       <Reply>
-        <rep>Y'a pas de quoi :)</rep>
-        <rep>:)</rep>
-        <rep>De rien, ?name :)</rep>
+        <rep>Y'a pas de quoi 😊</rep>
+        <rep>😄</rep>
+        <rep>De rien, ?name 😄</rep>
       </Reply>
     </Item>
   </Item>
@@ -186,6 +186,7 @@
         <word>coucou</word>
         <word>bonjour</word>
         <word>hello</word>
+        <word>👋</word>
       </Words>
     </Keywords>
     <Reply>
@@ -338,8 +339,8 @@
         </Words>
       </Keywords>
       <Reply>
-        <rep>Y'a pas de quoi :)</rep>
-        <rep>De rien, ?name :)</rep>
+        <rep>Y'a pas de quoi 😃</rep>
+        <rep>De rien, ?name 😃</rep>
       </Reply>
     </Item>
     <Item id="thank" needId="null">
