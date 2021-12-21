@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
   <Item>
+    <Keywords maxWord="3" minWord="1">
+      <Words>
+        <word>goodbye</word>
+        <word>bye</word>
+        <word>clear</word>
+        <word>shut</word>
+      </Words>
+    </Keywords>
+    <Reply>
+      <rep>Ok ?name !</rep>
+      <rep>Okay!</rep>
+      <rep>Alright, ok!</rep>
+      <rep>Ok, see you later 🥲</rep>
+    </Reply>
+    <Reply>
+      <rep>null</rep>
+      <rep>Don't hesitate if you still need me!</rep>
+    </Reply>
+    <Actions>
+      <action>controlsettings hideWindow</action>
+    </Actions>
+  </Item>
+  <Item>
     <Keywords maxWord="2" minWord="2">
       <Words>
         <word>thanks</word>

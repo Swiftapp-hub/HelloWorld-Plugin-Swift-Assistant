@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
   <Item>
+    <Keywords maxWord="3" minWord="1">
+      <Words>
+        <word>plus</word>
+        <word>revoir</word>
+        <word>degage</word>
+        <word>part</word>
+        <word>ferme</word>
+      </Words>
+    </Keywords>
+    <Reply>
+      <rep>Ok, d'accord ?name !</rep>
+      <rep>Bon, ok !</rep>
+      <rep>Ok, à plus tard 🥲</rep>
+    </Reply>
+    <Reply>
+      <rep>null</rep>
+      <rep>N'hésitez pas si vous avez encore besoin de moi !</rep>
+    </Reply>
+    <Actions>
+      <action>controlsettings hideWindow</action>
+    </Actions>
+  </Item>
+  <Item>
     <Keywords maxWord="1" minWord="1">
       <Words>
         <word>merci</word>
@@ -206,9 +229,9 @@
       </Words>
     </Keywords>
     <Reply>
-      <rep>Très bien, merci 😃</rep>
+      <rep>Très bien, merci ?name 😃</rep>
       <rep>Je vais bien, merci, j'ai hâte de vous aider !</rep>
-      <rep>Oui, ça boum !!!</rep>
+      <rep>Ça boum !!!</rep>
     </Reply>
     <Reply>
       <rep>Et vous ? 🤔</rep>
@@ -292,6 +315,10 @@
         <word>content</word>
         <word>heureux</word>
       </Words>
+      <NoWords>
+        <word>pas</word>
+        <word>mal</word>
+      </NoWords>
     </Keywords>
     <Reply>
       <rep>Super, je suis content pour vous !!!</rep>

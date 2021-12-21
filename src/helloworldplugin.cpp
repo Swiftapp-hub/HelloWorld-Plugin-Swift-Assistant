@@ -20,6 +20,8 @@
 #include <QFile>
 #include <QLocale>
 
+#define PLUGIN_ID "fr.swifty.helloworld"
+
 /**
  * Return the keywords with the answers that match in xml format
  *
@@ -44,7 +46,7 @@ QString HelloWorldPlugin::getDataXml()
  */
 QString HelloWorldPlugin::pluginId()
 {
-    return "fr.swifty.helloworld";
+    return PLUGIN_ID;
 }
 
 /**
@@ -66,6 +68,7 @@ QList<QString> HelloWorldPlugin::getCommande()
         list << "Comment je m'appelle ?" << "Quel est mon nom ?";
         list << "Dis moi une blague" << "Connais tu une blague?";
         list << "Ton nom est Swifty Assistant" << "Peut on changer ton nom ?";
+        list << "Au revoir" << "A plus";
     }
     else {
         list << "How are you ?";
@@ -76,6 +79,7 @@ QList<QString> HelloWorldPlugin::getCommande()
         list << "What is my name?";
         list << "Tell me a joke" << "Do you know a joke?";
         list << "Your name is Swifty Assistant" << "Can we change your name?";
+        list << "Goodbye" << "Bye";
     }
 
     return list;
@@ -84,9 +88,23 @@ QList<QString> HelloWorldPlugin::getCommande()
 /**
  * Called when a special action is defined in the xml
  */
-void HelloWorldPlugin::execAction(QList<QString>) {}
+void HelloWorldPlugin::execAction(QList<QString> a)
+{
+    if (a.at(0) == "controlsettings") {
+        if (a.at(1) == "hideWindow") {
+            QTime timer = QTime::currentTime().addSecs(2);
+            while (QTime::currentTime() < timer) ;
+            emit execAction("app hideWindow");
+        }
+    }
+}
 
 /**
  * Called when a custom interface is displayed and sends a message
  */
-void HelloWorldPlugin::messageReceived(QString, QString) {}
+void HelloWorldPlugin::messageReceived(QString, QString id)
+{
+    if (id == PLUGIN_ID) {
+
+    }
+}
