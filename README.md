@@ -1,5 +1,5 @@
 # HelloWorld
-[![License](https://img.shields.io/badge/license-GPLv3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html) [![GitHub issues](https://img.shields.io/github/issues/Swiftapp-hub/HelloWorld-Plugin-Swifty-Assistant.svg)](https://github.com/Swiftapp-hub/HelloWorld-Pluginy-Swifty-Assistant/issues) [![Maintained](https://img.shields.io/maintenance/yes/2021.svg)](https://github.com/Swiftapp-hub/HelloWorld-Plugin-Swifty-Assistant/commits/develop)
+[![License](https://img.shields.io/badge/license-GPLv3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html) [![GitHub issues](https://img.shields.io/github/issues/Swiftapp-hub/HelloWorld-Plugin-Swifty-Assistant.svg)](https://github.com/Swiftapp-hub/HelloWorld-Pluginy-Swifty-Assistant/issues) [![Maintained](https://img.shields.io/maintenance/yes/2021.svg)](https://github.com/Swiftapp-hub/HelloWorld-Plugin-Swifty-Assistant/commits/master)
 
 HelloWorld is a plugin for [Swifty Assistant](https://github.com/Swiftapp-hub/Swifty-Assistant) that lets it know how to respond to basic things like: "How are you" or "Tell me a joke"
 
